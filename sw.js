@@ -3,7 +3,7 @@
    Os dados NÃO passam por aqui: as chamadas para o servidor (Apps Script) vão direto para a internet.
    Estratégia: entrega a cópia guardada e atualiza em segundo plano (na próxima abertura já vem a versão nova).
    O número da versão acompanha o VERSAO_APP do index.html. */
-var CACHE = 'homeflow-v1';
+var CACHE = 'homeflow-v2';
 var ARQUIVOS = ['./', './index.html', './manifest.webmanifest', './icone-180.png', './icone-192.png', './icone-512.png'];
 
 self.addEventListener('install', function (e) {
